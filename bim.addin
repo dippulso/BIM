@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Name>bim</Name>
+		<FullClassName>bim.Class1</FullClassName>
+		<Text> Выгрузить список элементов </Text>
+		<Description> Hello World Description</Description>
+		<VisibilityMode>AlwaysVisible</VisibilityMode>
+		<Assembly>
+			C:\Users\dippulso\Desktop\чеки\bim\bin\Debug\bim.dll
+		</Assembly>
+		<AddInId>502fe383-2648-4e98-adf8-5e6047f9dc34</AddInId>
+		<VendorId>AECTechy</VendorId>
+		<VendorDescription>AECTechy</VendorDescription>
+	</AddIn>
+</RevitAddIns>
