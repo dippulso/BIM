@@ -3,7 +3,7 @@ using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 using bim;
 using System.Collections.Generic;
-using static bim.Form1;
+using static bim.Form2;
 
 namespace bim
 {
@@ -16,21 +16,21 @@ namespace bim
             FilteredElementCollector elementCollector = new FilteredElementCollector(document);
             List<Element> elements1 = (List<Element>)new FilteredElementCollector(document, (document.ActiveView.Id)).ToElements();
             List<Elems> elems = new List<Elems>();
-            Form1 form1 = new Form1();
+            Form2 form2 = new Form2();
             using (List<Element>.Enumerator enumerator = elements1.GetEnumerator())
             {
                 while (enumerator.MoveNext())
                 {
                     Element current = enumerator.Current;
                     string str = !(current.Name == "") && current.Name != null ? current.Name : "Без названия";
-                    elems.Add(new Form1.Elems()
+                    elems.Add(new Form2.Elems()
                     {
                         ID = current.Id,
                         name = str
                     });
                 }
             }
-            form1.ShowForm(elems);
+            form2.ShowForm(elems);
             return (Result)0;
         }
     }

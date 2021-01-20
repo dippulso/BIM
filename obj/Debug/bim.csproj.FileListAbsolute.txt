@@ -3,3 +3,11 @@ C:\Users\dippulso\Desktop\чеки\bim\bin\Debug\bim.pdb
 C:\Users\dippulso\Desktop\чеки\bim\obj\Debug\bim.csproj.CoreCompileInputs.cache
 C:\Users\dippulso\Desktop\чеки\bim\obj\Debug\bim.dll
 C:\Users\dippulso\Desktop\чеки\bim\obj\Debug\bim.pdb
+C:\Users\dippulso\Desktop\bim\bin\Debug\bim.dll
+C:\Users\dippulso\Desktop\bim\bin\Debug\bim.pdb
+C:\Users\dippulso\Desktop\bim\obj\Debug\bim.csproj.CoreCompileInputs.cache
+C:\Users\dippulso\Desktop\bim\obj\Debug\bim.dll
+C:\Users\dippulso\Desktop\bim\obj\Debug\bim.pdb
+C:\Users\dippulso\Desktop\bim\obj\Debug\bim.Form2.resources
+C:\Users\dippulso\Desktop\bim\obj\Debug\bim.csproj.GenerateResource.cache
+C:\Users\dippulso\Desktop\bim\bin\Debug\bim.addin
